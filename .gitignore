@@ -1,0 +1,41 @@
+# --- Python environment ---
+.vvidra-venv/
+
+# --- Python bytecode and caches ---
+__pycache__/
+*.py[cod]
+
+# --- Packaging / build output (created by pip install -e .) ---
+*.egg-info/
+build/
+dist/
+
+# --- Tool caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Generated results (regenerate from code + seed, don't version) ---
+outputs/
+*.nc
+*.zarr/
+
+# --- JAX persistent compilation cache (only if you enable it) ---
+.jax_cache/
+
+# --- Secrets / local config ---
+.env
+
+# --- Editor: keep shared VS Code settings, ignore personal state ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Windows OS files ---
+Thumbs.db
+desktop.ini
