@@ -32,6 +32,7 @@ vvidra-poc/
 
 ├── tests/                                  # pytest suite (behavioral and architectural properties)
 ├── notebooks/                              # exploration and figures only, no core logic
+├── documentation/                          # background literature 
 └── outputs/                                # generated results (git-ignored)
 ```
 
